@@ -14,8 +14,10 @@ I use to love the website "StumbleUpon" for it's ability to randomly send you to
 - Saftey Parts (make sure website has no virus or won't break a computer)
 
 ## Wire Frame:
-![WireFrame 1](../p4_wireFrame_1?raw=true)
-![WireFrame 2](../p4_wireFrame_2?raw=true)
+![WireFrame 1](p4_wireFrame_1.png?raw=true)
+![WireFrame 2](p4_wireFrame_2.png?raw=true)
+
+
 
 
 
