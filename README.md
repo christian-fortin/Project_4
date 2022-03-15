@@ -1,7 +1,7 @@
 # What is this?
 
 ## Description: 
-I use to love the website "StumbleUpon" for it's ability to randomly send you to somewhere interesting. This project is meant to be my own version of "StumbleUpon". I want to create a very clean and simple website, a title, and a buch of clickable dots. Each dot is a link to a random place. Users will have the ability to create a dot and fill it with what ever link they want to.
+I use to love the website "StumbleUpon" for it's ability to randomly send you to somewhere interesting. This project is meant to be my own version of "StumbleUpon". I want to create a very clean feed page with just a title and dots. I will also include a create page, a profile page, and a show page. Each dot is a link to a random place. Users will have the ability to create a dot and fill it with what ever link they want to.
 
 ### MVP:
 - Full CRUD on creating and deleting dots
