@@ -20,6 +20,8 @@ app.use(express.urlencoded({extended: false}))
 
 app.use('/api/dots', require('./routes/dotRoutes'))
 // allows us to shorten the url to just / for home page by making '/api/dots' implicit and requiring the data from the file
+app.use('/api/users', require('./routes/userRoutes'))
+// allows us to shorten the url to just / for home page by making '/api/dots' implicit and requiring the data from the file
 
 app.use(errorHandler)
 // Custom error handler

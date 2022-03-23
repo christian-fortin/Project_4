@@ -1,6 +1,12 @@
 const mongoose = require('../db/connection')
+// Connects to the database
 
 const dotsSchema = new mongoose.Schema({
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'User'
+    },
     name: {type: String, required: true},
     description: {type: String, required: true},
     url: { type: String, required: true},
@@ -12,7 +18,9 @@ const dotsSchema = new mongoose.Schema({
         timestamps: { currentTime: () => Math.floor(Date.now() / 1000) }
       }
     )
+    // Defines the model^
 
 const Dots = mongoose.model('Dots', dotsSchema)
+// creates a variable for the model to be exported
 
 module.exports = Dots
