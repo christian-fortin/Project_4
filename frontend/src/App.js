@@ -11,9 +11,9 @@ function App() {
     <div className='container'>
       <Navigation/>
       <Routes>
-        <Route path='/' element={'Profile'}></Route>
-        <Route path='/Login' element={'Login'}></Route>
-        <Route path='/Register' element={'Register'}></Route>
+        <Route path='/' element={<Profile/>}></Route>
+        <Route path='/Login' element={<Login/>}></Route>
+        <Route path='/Register' element={<Register/>}></Route>
       </Routes>
     </div>
     </Router>
