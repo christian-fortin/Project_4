@@ -3,10 +3,17 @@ import Profile from './pages/Profile';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Navigation from './components/Navigation';
+// import { ToastContainer } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css'
+import {useSelector} from 'react-redux'
+import {loggedInUser} from './features/auth/authSlice'
 
 function App() {
+  const user = useSelector(loggedInUser)
+  useSelector((state)=> state.auth)
   return (
     <>
+    {user ? <p>'Logged In'</p> : <p>Not logged In</p>}
     <Router>
     <div className='container'>
       <Navigation/>
@@ -17,6 +24,7 @@ function App() {
       </Routes>
     </div>
     </Router>
+    {/* <ToastContainer/> */}
     </>
   );
 }

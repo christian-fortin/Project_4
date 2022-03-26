@@ -6,10 +6,14 @@ const port = process.env.PORT || 8000
 // Declaring a port
 const {errorHandler} = require('./middleware/errorMiddleware')
 // Error Handler
-
-
 const app = express()
 // Using express
+
+let cors = require('cors')
+//Installing cors
+app.use(cors())
+
+
 
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))

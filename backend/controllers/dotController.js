@@ -74,7 +74,7 @@ const deleteDots = asyncHandler( async(req, res)=> {
         throw new Error('Dot not found')
     }
 
-    const user = await User.findById(req.user.id)
+       const user = await User.findById(req.user.id)
     //check for user
     if (!user) {
         res.status(401)
@@ -83,7 +83,7 @@ const deleteDots = asyncHandler( async(req, res)=> {
     // Make sure the loged in user matches the dot user
     if (dot.user.toString() !== user.id) {
         res.status(401)
-        throw new Error('User not authorized to delete')
+        throw new Error('User not authorized to update')
     }
     // Checks if the dot is existing
     await dot.remove()
