@@ -72,7 +72,7 @@ function Register() {
       </section>
 
       <section className='form'>
-        <form onSubmit={onSubmit}>
+        <form id="form-login-register" onSubmit={onSubmit}>
           <div className='form-group'>
             <input
               type='text'

@@ -16,14 +16,14 @@ const getDots = asyncHandler(async (req, res)=> {
 // route: POST /api/dots
 // Access: Private
 const createDots = asyncHandler(async (req, res)=> {
-    if (!req.body.name && !req.body.description && !req.body.url && !req.body.rating && !req.body.tags) {
+    if (!req.body.websiteName && !req.body.description && !req.body.url && !req.body.rating && !req.body.tags) {
         res.status(400)
         throw new Error('Please add the required fields')
     }
     // Checks to see if all of the required fields are there, if not it will ask to fill in all of the fields
 
     const dot = await Dots.create({
-        name: req.body.name,
+       websiteName: req.body.websiteName,
         description: req.body.description,
         url: req.body.url,
         rating: req.body.rating,

@@ -9,11 +9,11 @@ import {useSelector} from 'react-redux'
 import {loggedInUser} from './features/auth/authSlice'
 
 function App() {
-  const user = useSelector(loggedInUser)
-  useSelector((state)=> state.auth)
+  // const user = useSelector(loggedInUser)
+  // useSelector((state)=> state.auth)
   return (
     <>
-    {user ? <p>'Logged In'</p> : <p>Not logged In</p>}
+    {/* {user ? <p>'Logged In'</p> : <p>Not logged In</p>} */}
     <Router>
     <div className='container'>
       <Navigation/>

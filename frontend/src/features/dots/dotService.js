@@ -12,8 +12,33 @@ const createDot = async (dotData, token) => {
     return response.data
 }
 
+
+const getDots = async (token) => {
+    const config = {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    }
+    const response = await axios.get(API_URL_DOTS, config)
+
+    return response.data
+}
+
+const deleteDots = async (dotId, token) => {
+    const config = {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    }
+    const response = await axios.delete(API_URL_DOTS + dotId,  config)
+
+    return response.data
+}
+
 const dotService = {
-    createDot
+    createDot,
+    getDots,
+    deleteDots
 }
 
 export default dotService

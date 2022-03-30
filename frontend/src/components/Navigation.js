@@ -14,8 +14,9 @@ const Navigation = () => {
   };
   return (
     <header className="header">
-      <div className="logo">
-        <Link to="/">WhatIsThis?</Link>
+        {user && user.name ? <h1 id="welcomeUser">Welcome {user && user.name} </h1> : null }
+      <div className="title-div">
+            <Link className="title" to="/">WhatIsThis?</Link>
       </div>
       <ul>
         {user ? (

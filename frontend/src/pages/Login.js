@@ -58,10 +58,10 @@ const Login = () => {
         <h1>
           Login
         </h1>
-        <p>Please Electronic Mail Username and Password</p>
+        <p>Please Enter Your Electronic Mail Username & Password</p>
       </section>
-      <section className="form">
-        <form action="" onSubmit={onSubmit} >
+      <section className="form-login-register">
+        <form id="form-login-register" action="" onSubmit={onSubmit} >
 
           <div className="form-group">
             <input

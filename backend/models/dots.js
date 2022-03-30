@@ -4,10 +4,10 @@ const mongoose = require('../db/connection')
 const dotsSchema = new mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true,
+        // required: true,
         ref: 'User'
     },
-    name: {type: String, required: true},
+    websiteName: {type: String, required: true},
     description: {type: String, required: true},
     url: { type: String, required: true},
     rating: {type: String, required: true},
