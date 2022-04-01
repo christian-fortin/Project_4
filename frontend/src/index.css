@@ -75,6 +75,11 @@ top: 10px;
   font-size: 50px;
   font-family: 'Anton', sans-serif;
 }
+
+.title:hover{
+ color: grey;
+}
+
 .header ul {
   display: flex;
   align-items: center;
@@ -214,7 +219,7 @@ form,
 
 .dot-container{
   display: flex;
-  margin: 5rem 5rem 5rem 5rem;
+  margin: 5rem 5rem 3rem 5rem;
 }
 
 .dot-container .close:first-child{
@@ -260,7 +265,8 @@ form,
 
 
 #show{
-  font-size: 20px;
+  font-size: 15px;
+  margin-top:.4rem;
 }
 #show:hover{
   font-size: 22px;
@@ -349,4 +355,43 @@ form,
   font-size: 30px;
   text-decoration: underline solid black 2px;
   cursor: default;
+}
+
+
+
+.showPageContainer{
+  margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ /* align-content: baseline; */
+ width: 90%;
+ 
+}
+
+.showPage-dot-Container{
+  display: flex;
+  justify-content: center;
+}
+
+.dot-info-container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  margin: 0 1.7rem 0 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+  text-decoration: underline solid 2px grey;
+  word-wrap:break-word;
+}
+
+.showPage-span{
+  color: grey;
+  cursor: default;
+}
+
+#showPage-URL:hover{
+  color: blue;
+  cursor: pointer;
 }

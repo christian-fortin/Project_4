@@ -1,6 +1,11 @@
+// This file connects to the local database
+
+// ====================================================================================================================
+
+
 require('dotenv').config()
 const mongoose = require('mongoose')
-// Brings in the dot env and the mongoose
+// Brings in the dot env and the mongoose framework
 
 const MONGODB_URI = process.env.NODE_ENV === 'production' ? process.env.
 // Checks if it is in production or if it is in testing

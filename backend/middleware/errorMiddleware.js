@@ -1,4 +1,9 @@
+// This file is used for errors
+
 // Middleware are just functions that execute when a request is sent
+
+// ====================================================================================================================
+
 
 const errorHandler = (err, req, res, next) => {
     const statusCode = res.statusCode ? res.statusCode : 500

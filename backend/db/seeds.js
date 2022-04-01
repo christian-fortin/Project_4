@@ -1,7 +1,11 @@
+// This file is used for initial seeding of information to work with
+
+// ====================================================================================================================
+
 const mongoose = require('./connection')
 const Dots = require('../models/dots')
 const dotsSeeds = require('./seeds.json')
-// tells what data to bring in and which model to follow 
+// Tells what data to bring in and which model to follow 
 
 Dots.deleteMany({})
 .then(()=>{
@@ -12,4 +16,4 @@ Dots.deleteMany({})
 .finally(()=>{
     process.exit()
 })
-// Not exactly sure what this is^
+// --410 Not exactly sure what this is^

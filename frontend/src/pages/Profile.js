@@ -14,6 +14,7 @@ const Profile = () => {
 
   const {user} = useSelector((state)=> state.auth)
   const { dots, isLoading, isError, message} = useSelector((state) => state.dots)
+  console.log(dots);
 
 // This is throwing an error
   useEffect(() => {
@@ -38,12 +39,12 @@ const Profile = () => {
     <div>
        {/* <h1 className="welcomeUser">Welcome {user && user.name} </h1> */}
       <section>
-        <h1 id="profile-page-title">Profile Page</h1>
+        <h1 id="profile-page-title">Your Dots</h1>
       </section>
     <DotForm/>
     {dots.length > 0 ? (
       <div className="dots-Container">
-        <Link to="/login" className="close">Show</Link>
+       
         {dots.map((dot)=> (
           <DotItem key={dot._id} dot={dot}/>
         ))}
