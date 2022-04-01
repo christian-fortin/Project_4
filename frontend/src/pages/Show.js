@@ -51,11 +51,11 @@ const Show = () => {
         <DotItem key={dot._id} dot={dot}/>
         </div>
       <div className='dot-info-container'>
-        <p> Website Name: <span className='showPage-span'>{dot.websiteName}</span></p>
-        <p>Description: <span className='showPage-span'>{dot.description}</span> </p>
-        <a href={dot.url}target="_blank" rel="noopener noreferrer"><p>URL: <span className='showPage-span' id='showPage-URL'>{dot.url}</span></p></a>
-        <p>Rating: <span className='showPage-span'>{dot.rating}</span> </p>
-        <p>Tags: <span className='showPage-span'>{dot.tags}</span> </p>
+        <p className='showPage-p'> Website Name: <span className='showPage-span'>{dot.websiteName}</span></p>
+        <p className='showPage-p'>Description: <span className='showPage-span'>{dot.description}</span> </p>
+        <a href={dot.url}target="_blank" rel="noopener noreferrer"><p className='showPage-p'>URL: <span className='showPage-span' id='showPage-URL'>{dot.url}</span></p></a>
+        <p className='showPage-p'>Rating: <span className='showPage-span'>{dot.rating}</span> </p>
+        <p className='showPage-p'>Tags: <span className='showPage-span'>{dot.tags}</span> </p>
       </div>
     </div>
   );
