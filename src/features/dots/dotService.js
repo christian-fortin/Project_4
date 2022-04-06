@@ -4,11 +4,13 @@
 
 import axios from 'axios'
 // Brings in axios which is used for requests. 
-// const API_URL_DOTS= `${process.env.REACT_APP_API_URL}/api/dots/`
+const API_URL_DOTS = `${process.env.REACT_APP_API_URL}/api/dots/`
 // // Used for setting the first half of the URL
 // const API_URL_USERS = `${process.env.REACT_APP_API_URL}/api/users`
-const API_URL_USERS = process.env.REACT_APP_API_URL === "production"
-? `${process.env.REACT_APP_API_URL}/api/users/` : 'mongodb://localhost:27017/dots';
+
+
+// const API_URL_DOTS = process.env.REACT_APP_API_URL === "production"
+// ? `${process.env.REACT_APP_API_URL}/api/users/` : 'mongodb://localhost:27017/dots';
 // Used for setting the first half of the URL
 
 
