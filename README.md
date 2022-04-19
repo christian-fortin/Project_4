@@ -7,8 +7,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/christian-fortin/Project_4">
-<img width="388" alt="Screen Shot 2022-02-23 at 11 58 39 AM" src="">
-    // screen shots
+<img width="388" alt="logo" src="https://github.com/christian-fortin/Project_4/blob/main/public/inkpx-word-art.png?raw=true">
+    
   </a>
 
   <p align="center">
@@ -53,8 +53,10 @@
 
 ## About The Project
 <p align="center">
-![ezgif-1-5242fb8826](https://user-images.githubusercontent.com/83780176/155367266-b4948399-d7aa-4961-9e3c-2d3082ac7dfb.gif)
-</p>
+    <a href="https://github.com/christian-fortin/Project_4">
+<img width="388" alt="Feed Page" src="https://github.com/christian-fortin/Project_4/blob/main/public/Screen%20Shot%202022-04-06%20at%2010.14.27%20AM.png?raw=true">
+    </p>
+  </a>
   What is this is meant for randomness, entertainment and sharing. It is inspired by the website "stumbleUpon" which let you click a button and you were taken to a random website. I wanted to recreate that, however with a more social media feel and where users can create their own.   
 
 **Features:**
@@ -115,11 +117,22 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
-
-The application is available on Desktop and Mobile devices.
-
 ## Images:
+  <a href="https://github.com/christian-fortin/Project_4">
+<img width="388" alt="Login Page" src="https://github.com/christian-fortin/Project_4/blob/main/public/Screen%20Shot%202022-04-06%20at%2010.08.26%20AM.png?raw=true">
+  </a>
+  
+   <a href="https://github.com/christian-fortin/Project_4">
+<img width="388" alt="Showing Delete and hover" src="https://github.com/christian-fortin/Project_4/blob/main/public/Screen%20Shot%202022-04-06%20at%2010.14.42%20AM.png?raw=true">
+  </a>
+  
+    
+   <a href="https://github.com/christian-fortin/Project_4">
+<img width="388" alt="Show Page" src="https://github.com/christian-fortin/Project_4/blob/main/public/Screen%20Shot%202022-04-06%20at%2010.15.11%20AM.png?raw=true">
+  </a>
+  
+  
+  
 
 
 _For more examples, please refer to the [Documentation](https://github.com/christian-fortin/Project_4)_
