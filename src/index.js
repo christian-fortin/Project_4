@@ -6,7 +6,6 @@ import './index.css';
 // CSS
 import App from './App';
 import { store } from './app/store'; 
-// -- 410 What is this^ for?
 import { Provider } from 'react-redux';
 // This component makes the redux store available to any nested components that need to access the redux store
 import * as serviceWorker from './serviceWorker';
