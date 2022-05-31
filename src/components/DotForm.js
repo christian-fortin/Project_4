@@ -51,7 +51,7 @@ const DotForm = () => {
 
             <div className="form-group">
                 <label htmlFor="">Description</label>
-                <input type="text" name='description' id='description' value={description} onChange={(e) => setDescription(e.target.value)}  />
+                <textarea type="text" name='description' id='description' value={description} onChange={(e) => setDescription(e.target.value)}/> 
             </div>
 
             <div className="form-group">

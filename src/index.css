@@ -140,7 +140,7 @@ top: 10px;
 form,
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
@@ -149,7 +149,7 @@ form,
 .form-group {
   margin-bottom: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
@@ -157,7 +157,7 @@ form,
 #form-login-register{
   margin-bottom: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
@@ -166,7 +166,7 @@ form,
 .form-group textarea,
 .form-group select {
 
-  width:15rem;
+  width:10rem;
   padding: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
@@ -179,6 +179,11 @@ form,
   text-align: left;
   display: block;
   margin: 0 10px 10px 5px;
+}
+
+#description{
+  width:10rem;
+  height: 2.2rem;
 }
 
 .btn {
@@ -254,6 +259,7 @@ form,
 
 .show-delete{
   padding-left: 2rem;
+  width: 50px;
 }
 #delete-dot{
   font-size: 20px;
